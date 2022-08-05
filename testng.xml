@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test thread-count="5" name="Test">
+		<parameter name="url" value="https://demo.guru99.com/test/newtours/register.php"></parameter>
+		<parameter name="firstname" value="poorva"></parameter>
+		<parameter name="lastname" value="sharma"></parameter>
+		<parameter name="phone" value="7828827657"></parameter>
+		<parameter name="email" value="sharmapoorva4@gmail.com"></parameter>
+		<parameter name="address" value="vijaynagar"></parameter>
+		<parameter name="city" value="indore"></parameter>
+		<parameter name="state" value="mp"></parameter>
+		<parameter name="postal" value="453441"></parameter>
+		<parameter name="country" value="INDIA"></parameter>
+		<parameter name="username" value="sharmapoorva4@gmail.com"></parameter>
+		<parameter name="password" value="1234567"></parameter>
+		<parameter name="confpassword" value="1234567"></parameter>
+		 <parameter name="screenshot" value="D:\\Testing_automation\\images program"></parameter> 
+
+		<classes>
+			<class name="mavenproject.TaskWebShopProject">
+			</class>
+		</classes> 
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
